@@ -31,3 +31,20 @@ font-family: 'Noto Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Yeseva One', cursive;
 ```
+
+```bash
+$touch _mixin.scss _mediaQ.scss _reSet.scss _util.scss _var.scss
+```
+
+> Main.scss
+
+```scss
+@import 'config/var';
+@import 'config/mediaQ';
+@import 'config/reSet';
+@import 'config/util';
+@import 'config/mixin';
+@import 'app/app';
+@import 'app/views/home';
+@import 'app/components/header';
+```
