@@ -122,14 +122,6 @@ p {
   color: var(--black);
 }
 
-.note {
-  font-family: var(--sub-content);
-  font-size: 1.6rem;
-  line-height: 1.2;
-  color: var(--red-dark);
-  font-style: italic;
-}
-
 a {
   text-decoration: none;
 }
@@ -155,6 +147,14 @@ button {
   padding: 0.75rem 1.5rem;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
+}
+
+.u-note {
+  font-family: var(--sub-content);
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: var(--red-dark);
+  font-style: italic;
 }
 
 .u-btn {
