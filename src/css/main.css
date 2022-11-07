@@ -140,7 +140,7 @@ img {
 button {
   /* basic */
   font-family: var(--tag);
-  font-size: 2rem;
+  font-size: 1.6rem;
   display: inline-block;
   text-transform: capitalize;
   border: transparent;
@@ -197,6 +197,110 @@ button {
   line-height: 1.2;
   color: var(--grey-500);
   font-style: italic;
+}
+
+.top-text {
+  margin: 0 auto;
+  max-width: 80%;
+  margin-top: 2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo .logo_img {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+.logo h1 {
+  color: var(--grey-700);
+  color: var(--light-blue);
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: var(--logo);
+  font-style: italic;
+}
+.logo h1 .s {
+  letter-spacing: -1px;
+}
+.logo h1 .k {
+  letter-spacing: -4px;
+}
+.logo h1 .y {
+  font-weight: lighter;
+  letter-spacing: -2px;
+}
+.logo h1 .i {
+  letter-spacing: -1px;
+}
+.logo h1 .n {
+  text-shadow: 2px 0 #f92468;
+}
+.logo p {
+  font-weight: bold;
+  color: var(--grey-900);
+  font-size: 16px;
+  position: relative;
+  bottom: 6px;
+  left: 25px;
+  font-family: var(--tag);
+}
+
+.sel-display {
+  margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.sel-display_img {
+  max-width: 50rem;
+}
+@media only screen and (max-width: 75em) {
+  .sel-display_img {
+    max-width: 40rem;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .sel-display_img {
+    max-width: 60rem;
+  }
+}
+.sel-display_text {
+  max-width: 50rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media only screen and (max-width: 75em) {
+  .sel-display_text {
+    max-width: 40rem;
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .sel-display_text {
+    max-width: 60rem;
+  }
+}
+.sel-display_text h2 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+@media only screen and (max-width: 75em) {
+  .sel-display_text h2 {
+    font-size: 3rem;
+  }
+}
+.sel-display .btn {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,50 @@
+.u-note {
+  font-family: var(--sub-content);
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: var(--red-dark);
+  font-style: italic;
+}
+.u-btn {
+  /* customize */
+  background: var(--grey-800);
+  color: var(--white);
+  box-shadow: var(--shadow-1);
+  transition: var(--transition);
+}
+.u-btn:hover {
+  background: var(--grey-600);
+  box-shadow: var(--shadow-3);
+}
+
+/* form */
+.u-form {
+  margin: 3rem auto;
+  width: 60vw;
+  max-width: var(--fixed-width);
+  background: var(--white);
+  border-radius: var(--borderRadius);
+  box-shadow: var(--shadow-2);
+  padding: 2rem 2.5rem;
+
+  label {
+    display: block;
+    margin-bottom: 0.75rem;
+    text-transform: capitalize;
+  }
+
+  input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: var(--borderRadius);
+    background: var(--backgroundColor);
+    border: 1px solid var(--grey-200);
+    margin-bottom: 2rem;
+    // font
+    font-family: var(--sub-content);
+    font-size: var(--smallText);
+    line-height: 1.2;
+    color: var(--grey-500);
+    font-style: italic;
+  }
+}

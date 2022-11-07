@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./src/css/main.css" />
     <title>css-sass projects</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,34 +15,58 @@
   </head>
   <body>
     <header>
-      <h1>Css-Sass Projects</h1>
-    </header>
-    <section class="top-display">
-      <div class="img-cover">
-        <img src="./css-scss.jpg" alt="css-img" />
+      <div class="top-text">
+        <p class="u-note">Default css by reset css</p>
+        <h1><em>Advanced Css</em></h1>
+        <p>Let's start with reset the styles</p>
       </div>
-
-      <div class="message">
-        <h2>Advanced CSS and Sass</h2>
-        <br />
-        <p style="width: 40rem">
-          The most advanced and modern CSS course on the internet: master
-          flexbox, CSS Grid, responsive design, and so much more.
-        </p>
-        <br />
-        <p class="note">Flexbox, Grid, Animations and More!</p>
-        <br />
-        <button class="btn" type="button">explore</button>
+    </header>
+    <!-- skyinnk logo -->
+    <section class="logo">
+      <div class="logo_img">
+        <img src="./src/img/logo192.png" alt="" />
+      </div>
+      <div>
+        <h1>
+          <span class="s">s</span><span class="k">k</span
+          ><span class="y">y</span><span class="i">i</span
+          ><span class="n">n</span><span>k</span>
+        </h1>
+        <p>Expressive Learning</p>
       </div>
     </section>
-    <form action="">
-      <label for=""> email</label>
-      <input type="text" />
-      <label for=""> password</label>
-      <input type="text" />
-      <button style="font-size: 1.4rem">submit</button>
+    <!-- <form action=""></form> -->
+    <form class="u-form" action="/action_page.php">
+      <label for="fname">First name</label>
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        value="Enter your first name"
+      />
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" value="Enter your last name" />
+      <button type="submit" class="u-btn">submit</button>
     </form>
 
-    <footer></footer>
+    <!-- SEL DISPLAY -->
+    <section class="sel-display">
+      <div class="sel-display_img">
+        <img src="./src/img/top_learning.jpg" alt="" />
+        <div class="btn">
+          <button class="u_btn">Enroll for Free Courses</button>
+        </div>
+      </div>
+      <div class="sel-display_text">
+        <h1>Learn online from the leaders in education</h1>
+        <p>
+          Expand your skills through our flexible, online courses wherever you
+          are in your career.
+        </p>
+        <div class="btn">
+          <button class="u_btn">Explore All Courses</button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
