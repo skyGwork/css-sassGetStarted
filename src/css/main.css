@@ -199,108 +199,72 @@ button {
   font-style: italic;
 }
 
-.top-text {
+body {
   margin: 0 auto;
   max-width: 80%;
-  margin-top: 2rem;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-}
-.logo .logo_img {
-  height: 50px;
-  width: 50px;
-  margin-right: 20px;
-}
-.logo h1 {
-  color: var(--grey-700);
-  color: var(--light-blue);
-  font-size: 4rem;
-  font-weight: bold;
-  font-family: var(--logo);
-  font-style: italic;
-}
-.logo h1 .s {
-  letter-spacing: -1px;
-}
-.logo h1 .k {
-  letter-spacing: -4px;
-}
-.logo h1 .y {
-  font-weight: lighter;
-  letter-spacing: -2px;
-}
-.logo h1 .i {
-  letter-spacing: -1px;
-}
-.logo h1 .n {
-  text-shadow: 2px 0 #f92468;
-}
-.logo p {
-  font-weight: bold;
-  color: var(--grey-900);
-  font-size: 16px;
-  position: relative;
-  bottom: 6px;
-  left: 25px;
-  font-family: var(--tag);
+header {
+  margin: 2rem 0 4rem 0;
 }
 
-.sel-display {
-  margin: 0 auto;
-  max-width: 80%;
+.image-show {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap;
+  margin-bottom: 5rem;
 }
-.sel-display_img {
-  max-width: 50rem;
+
+.imgbox {
+  width: 40%;
 }
-@media only screen and (max-width: 75em) {
-  .sel-display_img {
-    max-width: 40rem;
-  }
+
+.learning-img {
+  background-color: #ed9a9a;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
 }
-@media only screen and (max-width: 56.25em) {
-  .sel-display_img {
-    max-width: 60rem;
-  }
+.learning-img img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  border: 1px solid #979494;
+  padding: 10px;
 }
-.sel-display_text {
-  max-width: 50rem;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.learning-img img:hover {
+  border-radius: 5px;
 }
-@media only screen and (max-width: 75em) {
-  .sel-display_text {
-    max-width: 40rem;
-    padding: 1rem;
-  }
+
+.top-learning-img {
+  border: 1px solid #979494;
 }
-@media only screen and (max-width: 56.25em) {
-  .sel-display_text {
-    max-width: 60rem;
-  }
+
+.polaroid {
+  width: 30%;
+  background-color: white;
+  box-shadow: var(--shadow-1);
+  margin-top: 25px;
 }
-.sel-display_text h2 {
-  font-size: 5rem;
-  font-weight: 700;
+.polaroid .container {
+  text-align: center;
+  padding: 10px 20px;
 }
-@media only screen and (max-width: 75em) {
-  .sel-display_text h2 {
-    font-size: 3rem;
-  }
+
+.img-text {
+  margin-top: 10rem;
 }
-.sel-display .btn {
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
+
+.imgtext {
+  width: 60%;
+  position: relative;
+}
+.imgtext img {
+  opacity: 0.5;
+}
+.imgtext .topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 
 /*# sourceMappingURL=main.css.map */

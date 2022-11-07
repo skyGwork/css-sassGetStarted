@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./src/img/icon-css.PNG" />
     <link rel="stylesheet" href="./src/css/main.css" />
     <title>css-sassGetStarted</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,58 +16,50 @@
   </head>
   <body>
     <header>
-      <div class="top-text">
-        <p class="u-note">Default css by reset css</p>
-        <h1><em>Advanced Css</em></h1>
-        <p>Let's start with reset the styles</p>
-      </div>
+      <h1><em>Element Explore</em></h1>
     </header>
-    <!-- skyinnk logo -->
-    <section class="logo">
-      <div class="logo_img">
-        <img src="./src/img/logo192.png" alt="" />
+    <section class="image-show">
+      <div class="imgbox learning-img">
+        <img src="./src/img/learning.jpg" alt="" />
+        <p class="u-note">fixed size image</p>
       </div>
-      <div>
-        <h1>
-          <span class="s">s</span><span class="k">k</span
-          ><span class="y">y</span><span class="i">i</span
-          ><span class="n">n</span><span>k</span>
-        </h1>
-        <p>Expressive Learning</p>
+      <div class="imgbox">
+        <img class="top-learning-img" src="./src/img/top_learning.jpg" alt="" />
+        <p class="u-note">responsive image</p>
       </div>
     </section>
-    <!-- <form action=""></form> -->
-    <form class="u-form" action="/action_page.php">
-      <label for="fname">First name</label>
-      <input
-        type="text"
-        id="fname"
-        name="fname"
-        value="Enter your first name"
-      />
-      <label for="lname">Last name:</label>
-      <input type="text" id="lname" name="lname" value="Enter your last name" />
-      <button type="submit" class="u-btn">submit</button>
-    </form>
 
-    <!-- SEL DISPLAY -->
-    <section class="sel-display">
-      <div class="sel-display_img">
-        <img src="./src/img/top_learning.jpg" alt="" />
-        <div class="btn">
-          <button class="u_btn">Enroll for Free Courses</button>
-        </div>
+    <h2>Responsive Polaroid Images / Cards</h2>
+
+    <div class="polaroid">
+      <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="5 Terre" />
+      <div class="container">
+        <p>Cinque Terre</p>
       </div>
-      <div class="sel-display_text">
-        <h1>Learn online from the leaders in education</h1>
-        <p>
-          Expand your skills through our flexible, online courses wherever you
-          are in your career.
-        </p>
-        <div class="btn">
-          <button class="u_btn">Explore All Courses</button>
-        </div>
+    </div>
+
+    <div class="polaroid">
+      <img
+        src="https://www.w3schools.com/css/lights600x400.jpg"
+        alt="Norther Lights"
+      />
+      <div class="container">
+        <p>Northern Lights</p>
       </div>
-    </section>
+    </div>
+
+    <h2 class="img-text">Image Text</h2>
+
+    <p class="u-note">Add some text to an image in the top left corner:</p>
+
+    <div class="imgtext">
+      <img
+        src="https://www.w3schools.com/css/img_5terre_wide.jpg"
+        alt="Cinque Terre"
+      />
+      <div class="topleft">
+        <h4>Top Left</h4>
+      </div>
+    </div>
   </body>
 </html>

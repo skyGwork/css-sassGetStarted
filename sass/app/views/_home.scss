@@ -1,6 +1,63 @@
-.top-text {
-  @include width-auto;
-  margin-top: 2rem;
+.image-show {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+.imgbox {
+  // box-sizing for image
+  // height: 20rem;
+  // width: 40rem;
+  //? OR
+  width: 40%;
 }
 
+.learning-img {
+  background-color: #ed9a9a;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid #979494;
+    padding: 10px;
 
+    &:hover {
+      // img:hover
+      border-radius: 5px;
+    }
+  }
+}
+.top-learning-img {
+  border: 1px solid #979494;
+}
+// Responsive Polaroid Images / Cards
+.polaroid {
+  width: 30%;
+  background-color: white;
+  box-shadow: var(--shadow-1);
+  margin-top: 25px;
+
+  .container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+}
+
+.img-text {
+  margin-top: 10rem;
+}
+.imgtext {
+  width: 60%;
+  // position for text
+  position: relative;
+  img {
+    opacity: 0.5;
+  }
+  .topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+}
