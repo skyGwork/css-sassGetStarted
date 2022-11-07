@@ -1,0 +1,24 @@
+body {
+  margin: 0 auto;
+  max-width: 80%;
+}
+header h1 {
+  padding: 2rem 0;
+}
+.top-display{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.img-cover {
+  height: 30rem;
+  width: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-cover img {
+  height: 25rem;
+  /* width: 40rem; */
+  border-radius: 1rem;
+}
