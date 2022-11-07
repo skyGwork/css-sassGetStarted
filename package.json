@@ -4,7 +4,10 @@
   "description": "- Config - font - contents - button, a, forms, autoWidth",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "go-live": "set PORT=9000 && live-server",
+    "watch-sass": "sass --watch sass/main.scss src/css/main.css",
+    "concat-css": "concat -o src/css/concat.css src/css/main.css src/demo1.css src/demo2.css ",
+    "prefix-css": "postcss --use autoprefixer -b 'last 10 versions' src/css/concat.css -o src/css/main.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/skyGwork/css-scssProjects/issues"
   },
-  "homepage": "https://github.com/skyGwork/css-scssProjects#readme"
+  "homepage": "https://github.com/skyGwork/css-scssProjects#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "concat": "^1.0.3",
+    "live-server": "^1.2.2",
+    "nodemon": "^2.0.20",
+    "postcss-cli": "^10.0.0",
+    "sass": "^1.56.0"
+  }
 }

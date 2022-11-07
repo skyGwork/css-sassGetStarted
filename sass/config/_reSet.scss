@@ -67,7 +67,13 @@ p {
   line-height: 1.4;
   color: var(--black);
 }
-
+.note {
+  font-family: var(--sub-content);
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: var(--red-dark);
+  font-style: italic;
+}
 a {
   text-decoration: none;
 }

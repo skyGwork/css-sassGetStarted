@@ -196,24 +196,11 @@ button {
   margin-bottom: 2rem;
 }
 
-body {
-  margin: 0 auto;
-  max-width: 80%;
-}
-
-header {
-  margin-top: 2rem;
-  height: 10rem;
-}
-
-.top-display {
-  display: flex;
-  justify-content: space-around;
-}
-
-.img-cover {
-  height: 30rem;
-  width: 40rem;
-}
-
 /*# sourceMappingURL=main.css.map */
+
+.demo1{
+    background-color: #fff;
+}
+.demo2{
+    background-color: #fff;
+}

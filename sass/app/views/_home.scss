@@ -1,0 +1,15 @@
+body {
+  @include width-auto;
+}
+header {
+  margin-top: 2rem;
+  height: 10rem;
+}
+.top-display {
+  display: flex;
+  justify-content: space-around;
+}
+.img-cover {
+  height: 30rem;
+  width: 40rem;
+}

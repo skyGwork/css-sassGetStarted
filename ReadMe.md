@@ -34,6 +34,7 @@ font-family: 'Yeseva One', cursive;
 
 ```bash
 $touch _mixin.scss _mediaQ.scss _reSet.scss _util.scss _var.scss
+$npm install autoprefixer concat nodemon npm-run-all postcss-cli sass --save-dev
 ```
 
 > Main.scss
@@ -47,4 +48,25 @@ $touch _mixin.scss _mediaQ.scss _reSet.scss _util.scss _var.scss
 @import 'app/app';
 @import 'app/views/home';
 @import 'app/components/header';
+```
+
+> NPM
+
+- ? todo npm-run-all
+
+```bash
+$npm install package-name
+$npm i package-name
+
+$npm uninstall package-name
+$npm un package-name
+
+$npm install autoprefixer concat nodemon npm-run-all postcss-cli sass --save-dev
+$npm i live-server --save-dev
+
+$npm uninstall -D package-name
+$npm uninstall --save-dev package-name
+
+$npm run compile-sassile-sass
+$npm run go-live
 ```
