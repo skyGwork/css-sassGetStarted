@@ -91,14 +91,12 @@ h1 {
   font-weight: 900;
   font-size: 5rem;
   color: var(--light-blue);
-  font-style: italic;
 }
 
 h2 {
   font-weight: 800;
   font-size: 4rem;
   color: var(--grey-700);
-  font-style: italic;
 }
 
 h3 {
@@ -154,7 +152,6 @@ button {
   font-size: 1.6rem;
   line-height: 1.2;
   color: var(--red-dark);
-  font-style: italic;
 }
 
 .u-btn {
@@ -205,40 +202,39 @@ button {
   margin-top: 2rem;
 }
 
-.logo {
+.skyinnk-logo {
   display: flex;
   justify-content: center;
 }
-.logo .logo_img {
+.skyinnk-logo .logo_img {
   height: 50px;
   width: 50px;
   margin-right: 20px;
 }
-.logo h1 {
+.skyinnk-logo h1 {
   color: var(--grey-700);
   color: var(--light-blue);
   font-size: 4rem;
   font-weight: bold;
   font-family: var(--logo);
-  font-style: italic;
 }
-.logo h1 .s {
+.skyinnk-logo h1 .s {
   letter-spacing: -1px;
 }
-.logo h1 .k {
+.skyinnk-logo h1 .k {
   letter-spacing: -4px;
 }
-.logo h1 .y {
+.skyinnk-logo h1 .y {
   font-weight: lighter;
   letter-spacing: -2px;
 }
-.logo h1 .i {
+.skyinnk-logo h1 .i {
   letter-spacing: -1px;
 }
-.logo h1 .n {
+.skyinnk-logo h1 .n {
   text-shadow: 2px 0 #f92468;
 }
-.logo p {
+.skyinnk-logo p {
   font-weight: bold;
   color: var(--grey-900);
   font-size: 16px;
