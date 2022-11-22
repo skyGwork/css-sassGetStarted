@@ -202,6 +202,14 @@ button {
   margin-top: 2rem;
 }
 
+.flex-cont-header {
+  margin: 0 auto;
+  max-width: 80%;
+}
+.flex-cont-header h1 {
+  margin-top: 2rem;
+}
+
 .skyinnk-logo {
   display: flex;
   justify-content: center;
