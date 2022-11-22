@@ -1,3 +1,25 @@
+.bgc-image {
+  height: 90vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(96, 239, 182, 0.571),
+      rgba(30, 143, 98, 0.708)
+    ),
+    url(../../../src/img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+
+  // for logo-box
+  position: relative;
+  .logo-box {
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+  }
+}
 .image-show {
   display: flex;
   justify-content: space-around;
