@@ -1,3 +1,8 @@
+# flex-properties
+
+```scss
+// Flex properties
+
 .flex-cont-header {
   @include width-auto;
   h1 {
@@ -55,3 +60,6 @@
     flex: 1;
   }
 }
+```
+
+# grid-properties

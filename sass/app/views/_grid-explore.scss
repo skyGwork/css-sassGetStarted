@@ -1,0 +1,35 @@
+.grid-header {
+  @include width-auto;
+  h1 {
+    margin: 4rem 0;
+  }
+}
+.grid-container {
+  @include width-auto;
+  padding: 2rem;
+  background-color: #c6bfc6;
+  display: grid;
+
+  // grid
+  grid-template-columns: 150px 200px 350px;
+  grid-template-rows: 150px 150px;
+
+  //   grid gap
+  grid-row-gap: 4rem;
+  grid-column-gap: 3rem;
+  //   OR
+  grid-gap: 3rem;
+
+  .item {
+    background-color: #fdacac;
+
+    //display adjustments
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
