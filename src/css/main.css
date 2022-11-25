@@ -258,8 +258,8 @@ button {
   padding: 2rem;
   background-color: #c6bfc6;
   display: grid;
-  grid-template-columns: 150px 200px 350px;
-  grid-template-rows: 150px 150px;
+  grid-template-columns: 1fr 2fr 40%;
+  grid-template-rows: repeat(2, 10rem);
   grid-row-gap: 4rem;
   grid-column-gap: 3rem;
   grid-gap: 3rem;
