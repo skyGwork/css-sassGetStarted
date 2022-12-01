@@ -62,4 +62,3 @@
 }
 ```
 
-# grid-properties

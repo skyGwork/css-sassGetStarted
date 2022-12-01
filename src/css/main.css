@@ -253,7 +253,7 @@ button {
 }
 .grid-title p {
   margin-bottom: 4rem;
-  padding: 2rem;
+  text-transform: uppercase;
 }
 
 .grid-container {
@@ -353,17 +353,39 @@ button {
   margin: 0 auto;
   max-width: 80%;
   display: grid;
-  grid-template-columns: repeat(3, 20rem);
-  grid-template-rows: repeat(2, 100px);
+  grid-template-columns: min-content repeat(3, 1fr);
+  grid-template-rows: min-content 10rem;
   grid-gap: 3rem;
 }
-.grid-max-min .mxa-min {
+.grid-max-min .minMax {
   background-color: #fff;
   display: grid;
   justify-content: center;
   align-items: center;
   font-size: large;
   text-transform: uppercase;
+}
+.grid-max-min .minMax-1 {
+  padding: 2rem;
+  background-color: #efcccc;
+}
+
+.grid-auto-fit-fill {
+  margin: 0 auto;
+  max-width: 80%;
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-rows: repeat(2, minmax(150px, min-content));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.grid-auto-fit-fill .gridAuto {
+  padding: 2rem;
+  background-color: #dedada;
+  font-size: large;
+  text-transform: uppercase;
+}
+.grid-auto-fit-fill .gridAuto-1 {
+  background-color: #e4d4d4;
 }
 
 .skyinnk-logo {
